@@ -1,0 +1,40 @@
+package patternMatching;
+
+public class PatternMatching5 {
+
+	public static void main(String[] args) {
+		for(int  i=1; i<=5; i++)
+		{
+			for(int j=1; j<=5; j++)
+			{
+				System.out.print("*");
+			}
+			for(int k=1; k<=5-i+1; k++)
+				System.out.print("*");
+			}
+			System.out.println();
+			
+			
+			//another type
+			  for(int i=1; i<=5; i++)
+		        {
+		            for(int j= i; j<=10; j++){
+		                System.out.print("*");
+		            }
+		            System.out.println();
+		            
+		            
+		     //another type
+		            for (int i1=1;i1<=10;i1++){
+		                if(i1==6){
+		                    break;
+		                }
+		                for (int j=10;j>=i1;j--){
+		                    System.out.print("*");
+		                }
+		                System.out.println();
+		            }
+		        }       
+		}
+	}
+
